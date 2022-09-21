@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+ }
+ .logo{
+    width: 10%;
+    padding-right: 40px;
+ }
+ .container{
+    padding: 50px 10%;
+   
+ }
+ .container nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ nav ul li{
+    list-style: none;
+     display: inline-block;
+     margin: 10px;
+     padding-left: 20px;
+ }
+ nav ul li a{
+    text-decoration: none;
+    color: white;
+   
+ }
+
+ nav ul li a:hover{
+    padding: 12px;
+    border-bottom: 2px solid wheat;
+ }
+
+ .btn1{
+    text-decoration: none;
+    color: black;
+    border: 2px solid white;
+    padding: 12px 14px;
+    background-color: wheat;
+    border-radius: 2em;
+    display: inline-block;
+ }
+ .btn1:hover{
+    background-color: antiquewhite;
+ }
+
+ .textup{
+    margin-top: 20px;
+    margin: 50px 5%;
+    width: 600px;
+ }
+
+ .textup h1{
+    margin-bottom: 40px;
+    
+ }
+
+ .textup p{
+    margin-bottom: 50px;
+ }
+
+ .btn{
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: wheat;
+    border-radius: 5px;
+    color: black;
+    padding: 12px 14px;
+    display: inline-block;
+ }
+ .btn:hover{
+    background-color: blanchedalmond;
+ }
+ 
+ .banner{
+   display: flex;
+   position: relative;
+   padding: 20px 40%;
+
+    
+ }
+ .banner img{
+    width: 20%;
+    border-radius: 10px;
+   
+}
+
+.banner1{
+   position: absolute;
+   bottom: 5%;
+   right: 25%;
+   z-index: 1;
+}
+
+.banner2{
+   position: absolute;
+   bottom: 300%;
+   right: 10%;
+   z-index: 2;
+}
+
+.banner3{
+   position: absolute;
+   bottom: 450%;
+   z-index: 3;
+   right: 25%;
+}
